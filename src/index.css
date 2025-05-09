@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-primary text-textPrimary;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-textSecondary font-bold;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24;
+  }
+
+  .nav-link {
+    @apply cursor-pointer hover:text-secondary transition-colors duration-300;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 border-2 border-secondary text-secondary rounded hover:bg-secondary/10 transition-all duration-300;
+  }
+}

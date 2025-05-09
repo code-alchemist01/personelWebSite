@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center">
-      <div className="section-container">
+      <div className="section-container flex items-center justify-between">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -38,6 +38,18 @@ const Hero = () => {
               Projelerimi Gör
             </motion.a>
           </div>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="hidden md:block"
+        >
+          <img
+            src="https://avatars.githubusercontent.com/code-alchemist01"
+            alt="Kutay Şahin"
+            className="w-80 h-80 rounded-full shadow-lg"
+          />
         </motion.div>
       </div>
     </section>

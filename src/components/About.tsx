@@ -16,7 +16,7 @@ const About = () => {
   ];
 
   const certificates = [
-    'Google Advanced Data Analytics Exper',
+    'Google Advanced Data Analytics Expert',
     'Google Advanced Data Analytics Capstone',
     'Google Agile',
     'Google Foundations Data Science',

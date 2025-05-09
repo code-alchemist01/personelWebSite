@@ -1,54 +1,103 @@
-# React + TypeScript + Vite
+# Kişisel Portföy Websitesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Proje Hakkında
 
-Currently, two official plugins are available:
+Bu proje, modern web teknolojileri kullanılarak geliştirilmiş kişisel bir portföy websitesidir. Ziyaretçilere profesyonel deneyimlerimi, projelerimi ve teknik yeteneklerimi sunmak için tasarlanmıştır.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Özellikler
 
-## Expanding the ESLint configuration
+- 🎯 Modern ve responsive tasarım
+- 🌟 Animasyonlu geçişler ve interaktif UI elementleri
+- 📱 Tüm cihazlarda uyumlu görünüm
+- 📧 EmailJS ile entegre iletişim formu
+- 📄 CV görüntüleme ve indirme özelliği
+- 🎨 Özelleştirilmiş renk teması
+- 🔍 SEO dostu yapı
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Kullanılan Teknolojiler
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **React** - Modern UI geliştirme için JavaScript kütüphanesi
+- **TypeScript** - Tip güvenli kod geliştirme
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Güçlü animasyon kütüphanesi
+- **EmailJS** - Sunucu gerektirmeyen email servisi
+- **Vite** - Hızlı geliştirme ortamı ve build tool
+- **React Icons** - Kapsamlı ikon kütüphanesi
+- **React Scroll** - Smooth scrolling özelliği
+
+## 🚀 Kurulum ve Çalıştırma
+
+1. Projeyi klonlayın:
+```bash
+git clone https://github.com/yourusername/portfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+2. Proje dizinine gidin:
+```bash
+cd portfolio
 ```
+
+3. Bağımlılıkları yükleyin:
+```bash
+npm install
+```
+
+4. Geliştirme sunucusunu başlatın:
+```bash
+npm run dev
+```
+
+5. Tarayıcınızda açın:
+```
+http://localhost:5173
+```
+
+## 📦 Build
+
+Projeyi production için build etmek için:
+
+```bash
+npm run build
+```
+
+## 🌟 Özellikler Detayı
+
+### 💼 Portföy Bölümü
+- Projelerin detaylı açıklamaları
+- Canlı demo ve kaynak kod linkleri
+- Kullanılan teknolojilerin listesi
+
+### 📚 Yetenekler Bölümü
+- AI & Deep Learning
+- Modern Web Geliştirme
+- Backend & Sistem Mimarisi
+- Mobil & Cross-Platform Geliştirme
+- Cloud & DevOps
+- Veri Bilimi & Analitik
+- Siber Güvenlik & Penetrasyon Testi
+- Proje Yönetimi & Danışmanlık
+- Eğitim & Mentorluk
+
+### 📧 İletişim Formu
+- EmailJS entegrasyonu
+- Form validasyonu
+- Başarılı/hatalı gönderim bildirimleri
+- Otomatik form temizleme
+
+## 🤝 Katkıda Bulunma
+
+1. Bu repository'yi fork edin
+2. Feature branch'i oluşturun (`git checkout -b feature/amazing-feature`)
+3. Değişikliklerinizi commit edin (`git commit -m 'feat: Add amazing feature'`)
+4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
+5. Pull Request oluşturun
+
+## 📝 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
+
+## 📞 İletişim
+
+İbrahim Kutay Şahin - [ibrahimkutaysahin577@gmail.com](mailto:ibrahimkutaysahin577@gmail.com)
+
+Proje Linki: [https://github.com/yourusername/portfolio](https://github.com/yourusername/portfolio)
